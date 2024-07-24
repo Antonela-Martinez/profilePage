@@ -1,0 +1,125 @@
+body {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    color: #333; /* Texto oscuro para mejor legibilidad */
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #fff;   /* Fondo blanco   */
+    /* border-bottom: 1px solid #ddd; Borde inferior delgado
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Sombra ligera */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333 !important; /* Texto oscuro */
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important; /* Texto oscuro */
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff7e5f !important; /* Cambio de color al pasar el mouse */
+}
+
+/* .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+} */
+
+.profile-card {
+    max-width: 400px;
+    margin-top: 5rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    margin-bottom: 0.50rem !important
+}
+
+
+.profile-card p {
+    margin-bottom: 0.50rem !important
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 5rem;
+    color: #333; /* Texto oscuro */
+}
+
+.btn-custom {
+    background: #ff7e5f;
+    border: none;
+    color: #fff; /* Texto blanco */
+}
+
+.btn-custom:hover {
+    background: #feb47b;
+}
+
+.card-text-descripcion {
+    margin-top: 0.5rem;
+}
+    /* Ajuste para las imágenes del carrusel */
+    #carouselExampleControls .carousel-item img {
+        max-height: 100%; /* Altura máxima igual a la altura del carrusel */
+        width: auto; /* Ancho automático para mantener la proporción */
+        margin: auto; /* Centrado horizontal */
+    }
+
+/* Estilos para el mensaje de éxito */
+#mensaje-exito {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #28a745; /* Color verde para éxito */
+    color: #fff; /* Texto blanco */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1050; /* Asegúrate de que esté encima de otros elementos */
+    /* display: none; */
+    animation: fadeInOut 4s forwards; /* Animación para desaparecer después de unos segundos */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/* Estilo para la sección del perfil */
+#perfil {
+    padding-top: 30px;
+    padding-bottom: 30px; /* Ajusta el valor para elevar la sección */
+}
+
+.card-body {
+    padding: 0.50rem !important
+}
+
