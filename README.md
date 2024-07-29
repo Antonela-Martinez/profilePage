@@ -1,6 +1,7 @@
 ## Creación de una página de perfil
 
 Crear una página utilizando Bootstrap y los elementos que hemos visto durante las últimas dos clases.
+Proyecto profilePage - Visita [GitHub Pages](https://antonela-martinez.github.io/profilePage/)
 
 ## La página debe incluir lo siguiente:
 
